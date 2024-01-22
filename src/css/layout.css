@@ -1,0 +1,32 @@
+.contentStyle {
+  text-align: center;
+  height: 100%;
+  line-height: 120px;
+  color: #181945;
+  background-image: url("../assets/homepage-banner.svg");
+  background-position: center;
+  background-size: cover;
+  /* margin: 150px; */
+}
+
+.footerStyle {
+  /* text-align: center; */
+  color: #ffffff;
+  /* background-color: #fff; */
+}
+
+.layoutStyle {
+  border-radius: 8;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+.headerStyle {
+  text-align: center;
+  color: #181945;
+  height: 64;
+  padding-inline: 48;
+  line-height: 64px;
+  background-color: #ffffff;
+}
