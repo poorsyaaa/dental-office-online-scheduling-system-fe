@@ -10,7 +10,7 @@ Welcome to my React.js frontend project! This repository contains the code for t
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Functionalities](#functionalities)
-- [License](#license)
+- [Documentation and Walkthrough](#documentation-and-walkthrough)
 
 ## Getting Started
 
@@ -103,3 +103,11 @@ This project offers the following key functionalities:
 
 7. **Navigation:**
    - The application includes a user-friendly navigation menu to access different sections and features.
+
+## Documentation and Walkthrough
+
+For a more detailed look at the project, including documentation and a 5-minute walkthrough video, please visit the following Google Drive link:
+
+[Google Drive Documentation and Video](https://drive.google.com/drive/folders/1aMoTSZP7cTKxK-n0wSWJUrGI1r8cdKmf?usp=sharing)
+
+Please ensure that you have appropriate access rights to view the contents of the link.
