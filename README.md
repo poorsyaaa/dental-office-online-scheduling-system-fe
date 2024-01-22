@@ -36,7 +36,7 @@ Before you begin, make sure you have the following software installed:
 
 3. Install the project dependencies:
 
-  ```bash
+   ```bash
    npm install
 
 ## Usage
