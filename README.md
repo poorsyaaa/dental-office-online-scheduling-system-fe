@@ -1,30 +1,105 @@
-# React + TypeScript + Vite
+# My React.js + Typescript + Vite Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my React.js frontend project! This repository contains the code for the user interface of our application.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Functionalities](#functionalities)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
-- Configure the top-level `parserOptions` property like this:
+## Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Before you begin, make sure you have the following software installed:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js: You can download it from [nodejs.org](https://nodejs.org/).
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/4sya/dental-office-online-scheduling-system-fe.git
+
+2. Navigate to the project directory
+
+   ```bash
+   cd dental-office-online-scheduling-system-fe
+
+3. Install the project dependencies:
+
+  ```bash
+   npm install
+
+## Usage
+
+1. To start the development server and view the project in your web browser, use the following command:
+
+   ```bash
+   npm run dev
+
+## Folder Structure
+
+Dental Office Online Schedule - FE/
+  ├── public/
+  │   ├── vite.svg
+  ├── src/
+  │   ├── assets/
+  │   ├── components/  
+  │   ├── context/
+  │   ├── css/
+  │   ├── hooks/
+  │   ├── lib/
+  │   ├── pages/
+  │   ├── services/
+  │   ├── types/
+  │   ├── utils/
+  │   └── App.tsx
+  │   └── index.css
+  │   └── main.tsx
+  │   └── index
+  ├── package.json
+  ├── README.md
+  └── .eslintrc.cjs
+  └── .gitignore
+  └── index.html
+  └── tailwind.config.js
+  └── tsconfig.json
+  └── tsconfig.node.json
+  └── vite.config.ts
+
+## Functionalities
+
+This project offers the following key functionalities:
+
+1. **User Registration and Login:**
+   - Users can create accounts with unique usernames and passwords.
+   - Existing users can securely log in to access their accounts.
+
+2. **Dashboard:**
+   - Upon logging in, users are redirected to a personalized dashboard.
+   - The dashboard displays the user's information, including all of the user's appointments, and allows the user to schedule new appointments.
+
+3. **Book an Appointment:**
+   - Logged-in users are allowed to book, cancel, and rebook their previous appointments.
+
+4. **API Integration:**
+   - The frontend communicates with the backend API to fetch and display dynamic data.
+   - API calls are handled asynchronously for a smooth user experience.
+
+5. **Error Handling:**
+   - Proper error handling and validation are implemented to provide users with clear feedback in case of errors or invalid inputs.
+
+6. **Logout:**
+   - Users can securely log out of their accounts when they are done using the application.
+
+7. **Navigation:**
+   - The application includes a user-friendly navigation menu to access different sections and features.
